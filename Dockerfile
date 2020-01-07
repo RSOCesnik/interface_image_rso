@@ -4,7 +4,7 @@ RUN mkdir /app
 
 WORKDIR /app
 
-ADD .target/imageInterface-1.0.0-SNAPSHOT.jar /app
+ADD ./target/imageInterface-1.0.0-SNAPSHOT.jar /app
 
 EXPOSE 8082
 
