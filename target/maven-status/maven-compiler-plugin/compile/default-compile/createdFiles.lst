@@ -1,3 +1,4 @@
-com/kumuluz/ee/samples/jsf/CustomerServlet.class
-com/kumuluz/ee/samples/jsf/Customer.class
-com/kumuluz/ee/samples/jsf/Database.class
+si/fri/project/imageInterface/CommentDto.class
+si/fri/project/imageInterface/Database.class
+si/fri/project/imageInterface/CustomerServlet.class
+si/fri/project/imageInterface/Customer.class

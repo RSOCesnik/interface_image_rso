@@ -1,3 +1,4 @@
-/home/cesnik/development/kumuluzee-samples/jsp/src/main/java/com/kumuluz/ee/samples/jsf/Customer.java
-/home/cesnik/development/kumuluzee-samples/jsp/src/main/java/com/kumuluz/ee/samples/jsf/CustomerServlet.java
-/home/cesnik/development/kumuluzee-samples/jsp/src/main/java/com/kumuluz/ee/samples/jsf/Database.java
+/home/cesnik/development/rso_project/interface_image_rso/src/main/java/si/fri/project/imageInterface/Database.java
+/home/cesnik/development/rso_project/interface_image_rso/src/main/java/si/fri/project/imageInterface/Customer.java
+/home/cesnik/development/rso_project/interface_image_rso/src/main/java/si/fri/project/imageInterface/CommentDto.java
+/home/cesnik/development/rso_project/interface_image_rso/src/main/java/si/fri/project/imageInterface/CustomerServlet.java
