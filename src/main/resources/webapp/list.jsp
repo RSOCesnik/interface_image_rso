@@ -24,10 +24,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <title>KumuluzEE JSF sample</title>
+    <title>Image</title>
 </head>
 <body>
-    <h2>Customers</h2>
-    <jsp:include page="${pageContext.request.contextPath}/customers"/>
+    <jsp:include page="${pageContext.request.contextPath}/image">
+     <jsp:param name="id" value="<%= request.getParameter(\"value\") %>" />
+    </jsp:include>
 </body>
 </html>

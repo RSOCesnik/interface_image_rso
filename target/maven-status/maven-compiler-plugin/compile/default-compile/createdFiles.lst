@@ -1,4 +1,13 @@
-si/fri/project/imageInterface/CommentDto.class
+si/fri/project/imageInterface/Dto/ImageDto.class
+si/fri/project/imageInterface/Dto/ImagePlusComment.class
 si/fri/project/imageInterface/Database.class
-si/fri/project/imageInterface/CustomerServlet.class
+si/fri/project/imageInterface/Dto/CommentDto.class
+si/fri/project/imageInterface/ClientRSO.class
+si/fri/project/imageInterface/ClientRSO$2.class
+si/fri/project/imageInterface/CatalogServlet.class
+si/fri/project/imageInterface/UploadingServlet.class
+si/fri/project/imageInterface/ImageServlet.class
+si/fri/project/imageInterface/ClientRSO$1.class
+si/fri/project/imageInterface/CommentingServlet.class
+si/fri/project/imageInterface/Helper.class
 si/fri/project/imageInterface/Customer.class

@@ -24,13 +24,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <title>KumuluzEE JSP sample</title>
+    <title>Catalog</title>
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h2>Choose an action:</h2>
-    <a href="input.jsp">Add customer</a>
-    <br/>
-    <br/>
-    <a href="list.jsp">List customers</a>
+<a class="list-group-item" href="${pageContext.request.contextPath}/image.jsp">Show image with id 11</a>
+<div class="middle">
+ <jsp:include page="${pageContext.request.contextPath}/images"/>
+
+</div>
 </body>
 </html>

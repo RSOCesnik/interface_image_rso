@@ -1,0 +1,31 @@
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.middle{
+    position:relative;
+    width: 500px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+h3,label{
+    text-align: center;
+    display: block;
+}
+h3{
+    margin-top: 100px;
+    border-top: 1px solid;
+}
+.comments-image-title{
+    font-size: 23px;
+    margin-top: 50px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+.comment{
+    margin-top: 40px;
+    padding-left: 40px;
+}
