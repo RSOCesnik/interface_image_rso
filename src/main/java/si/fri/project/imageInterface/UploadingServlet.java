@@ -39,7 +39,7 @@ public class UploadingServlet extends HttpServlet {
             String upload = null;
             try {
                 upload = upload_picture(title,desc,imageStr);
-                response.sendRedirect(Helper.getBaseUrl(request)+"/welcome.jsp");
+                response.sendRedirect(Helper.getBaseUrl(request)+"/app/welcome.jsp");
 
 
             } catch (Exception e) {

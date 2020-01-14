@@ -23,7 +23,7 @@ public class CommentingServlet extends HttpServlet {
             String id = request.getParameter("imageid");
             String response_code = ClientRSO.add_comment(id,data);
             response.getWriter().write(response_code);
-            response.sendRedirect(Helper.getBaseUrl(request)+"/image/"+id);
+            response.sendRedirect(Helper.getBaseUrl(request)+"/app/image/"+id);
 
 
         }else{

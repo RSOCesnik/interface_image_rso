@@ -38,14 +38,14 @@ public class ImageServlet extends HttpServlet {
                 for (CommentDto comment : image.getComments()) {
 
                     response.getWriter().write("<div class=\"comment\">" + comment.getCommentData() + "</div>" +
-                            "<form method=\"post\" action=\"/deletecomment\">" +
+                            "<form method=\"post\" action=\"/app/deletecomment\">" +
                             "<input name=\"commentId\" value=\""+comment.getId()+"\" type=\"hidden\"/>" +
                             "<input type=\"submit\" value=\"Delete comment\"/>" +
                             "</form><br/>");
 
                 }
                 response.getWriter().write("</div>" +
-                        "<div class=\"comment-form\"><form method=\"post\" action=\"/addcomment\">" +
+                        "<div class=\"comment-form\"><form method=\"post\" action=\"/app/addcomment\">" +
                         "<input name=\"comment\" maxlength=\"50\" required/>" +
                         "<input name=\"imageid\" value=\""+image.getImage().getId()+"\" type=\"hidden\"/>" +
                         "<input type=\"submit\" value=\"Submit\"/>" +
