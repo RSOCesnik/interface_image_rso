@@ -28,7 +28,6 @@
     <link href="../css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<a class="list-group-item" href="${pageContext.request.contextPath}/image.jsp">Show image with id 11</a>
 <div class="middle">
  <jsp:include page="${pageContext.request.contextPath}/images"/>
 

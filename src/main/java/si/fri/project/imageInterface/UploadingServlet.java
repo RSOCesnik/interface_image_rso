@@ -39,35 +39,13 @@ public class UploadingServlet extends HttpServlet {
             String upload = null;
             try {
                 upload = upload_picture(title,desc,imageStr);
-                response.getWriter().write(upload);
+                response.sendRedirect(Helper.getBaseUrl(request)+"/welcome.jsp");
+
 
             } catch (Exception e) {
                 e.printStackTrace();
             }
 
-
-
-//            String data = ClientRSO.get_image_and_comments(request.getParameter("id"));
-//
-//            if (data == null || data.isEmpty()) {
-//                response.getWriter().println("No image found.");
-//
-//            } else {
-//                ObjectMapper mapper = new ObjectMapper();
-//                ImagePlusComment image = mapper.readValue(data, ImagePlusComment.class);
-//                response.getWriter().write("<h3>" + image.getImage().getTitle() + "</h3><br/>");
-//                response.getWriter().write("<img src=\"" + image.getImage().getData() + "\"/><br/>");
-//                response.getWriter().write("<label>" + image.getImage().getDescription() + "</label><br/>");
-//                response.getWriter().write("<div class=\"comments-image\">");
-//
-//                for (CommentDto comment : image.getComments()) {
-//
-//                    response.getWriter().write("<div class=\"comment\">" + comment.getCommentData() + "</div><br/>");
-//
-//                }
-//                response.getWriter().write("</div>");
-//
-//            }
         }else{
             response.getWriter().write("Wrong parameters");
         }

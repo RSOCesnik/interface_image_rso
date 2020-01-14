@@ -1,4 +1,5 @@
 si/fri/project/imageInterface/Dto/ImageDto.class
+si/fri/project/imageInterface/DeleteCommentServlet.class
 si/fri/project/imageInterface/Dto/ImagePlusComment.class
 si/fri/project/imageInterface/Database.class
 si/fri/project/imageInterface/Dto/CommentDto.class

@@ -2,6 +2,7 @@
 /home/cesnik/development/rso_project/interface_image_rso/src/main/java/si/fri/project/imageInterface/UploadingServlet.java
 /home/cesnik/development/rso_project/interface_image_rso/src/main/java/si/fri/project/imageInterface/Customer.java
 /home/cesnik/development/rso_project/interface_image_rso/src/main/java/si/fri/project/imageInterface/Helper.java
+/home/cesnik/development/rso_project/interface_image_rso/src/main/java/si/fri/project/imageInterface/DeleteCommentServlet.java
 /home/cesnik/development/rso_project/interface_image_rso/src/main/java/si/fri/project/imageInterface/ImageServlet.java
 /home/cesnik/development/rso_project/interface_image_rso/src/main/java/si/fri/project/imageInterface/CatalogServlet.java
 /home/cesnik/development/rso_project/interface_image_rso/src/main/java/si/fri/project/imageInterface/ClientRSO.java

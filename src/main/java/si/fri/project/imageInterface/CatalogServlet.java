@@ -20,10 +20,10 @@ public class CatalogServlet extends HttpServlet {
         String data = ClientRSO.get_images();
 
         response.getWriter().write("<div class=\"image-form\"><form method=\"post\" action=\"/addimage\" enctype=\"multipart/form-data\">" +
-                "<input name=\"title\" maxlength=\"50\" required/>" +
-                "<input name=\"description\" maxlength=\"50\" required/>" +
-                "<input name=\"data\" type=\"file\" maxlength=\"50\" required/>" +
-                "<input type=\"submit\" value=\"Submit\"/>" +
+                "<input placeholder=\"Title\" name=\"title\" maxlength=\"50\" required/>" +
+                "<input placeholder=\"Description\" name=\"description\" maxlength=\"50\" required/>" +
+                "<input  name=\"data\" type=\"file\" maxlength=\"50\" required/>" +
+                "<input type=\"submit\" value=\"Add image\"/>" +
                 "</form></div>");
 
         if (data == null || data.isEmpty()) {
@@ -36,7 +36,7 @@ public class CatalogServlet extends HttpServlet {
             for (ImageDto image : ppl2) {
 
                 response.getWriter().write("<h3>" + image.getTitle() + "</h3><br/>");
-                response.getWriter().write("<a href=\"/image/"+image.getId()+"\"><img src=\"" + image.getData() + "\" data-id=\"" + image.getId() + "\"  /></a><br/>");
+                response.getWriter().write("<a href=\"image/"+image.getId()+"\"><img src=\"" + image.getData() + "\" data-id=\"" + image.getId() + "\"  /></a><br/>");
                 response.getWriter().write("<label>" + image.getDescription() + "</label><br/>");
             }
         }

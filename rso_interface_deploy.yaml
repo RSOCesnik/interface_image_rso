@@ -13,15 +13,11 @@ spec:
         app: image-interface
     spec:
       containers:
-      - image: bcesnik/interface_image_rso:1.0.0-SNAPSHOT-4.1
+      - image: bcesnik/interface_image_rso:1.0.0-SNAPSHOT-5.1
         name: image-interface
         env:
           - name: KUMULUZEE_DISCOVERY_CLUSTER
             value: gcloud
-          - name: KUMULUZEE_DISCOVERY_ETCD_HOSTS
-            value: http://etcd:2379
-          - name: KUMULUZEE_CONFIG_ETCD_HOSTS
-            value: http://etcd:2379
           - name: KUMULUZEE_SERVER_BASEURL
             value: http://image-interface-service:8084
         ports:
@@ -40,4 +36,4 @@ spec:
     protocol: TCP
     targetPort: 8084
   selector:
-    app: image-comments
+    app: image-interface
