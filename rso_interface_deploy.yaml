@@ -13,7 +13,7 @@ spec:
         app: image-interface
     spec:
       containers:
-      - image: bcesnik/interface_image_rso:1.0.0-SNAPSHOT-6.1
+      - image: bcesnik/interface_image_rso:1.0.0-SNAPSHOT-7.1
         name: image-interface
         env:
           - name: KUMULUZEE_DISCOVERY_CLUSTER

@@ -24,7 +24,7 @@ public class DeleteCommentServlet extends HttpServlet {
             String id = request.getParameter("commentId");
             HttpResponse hr = ClientRSO.delete_comment(id);
 
-            response.sendRedirect(Helper.getBaseUrl(request)+"/app/welcome.jsp");
+            response.sendRedirect(Helper.getBaseUrl(request)+"/welcome.jsp");
 
 
         }else{
